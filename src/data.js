@@ -23,6 +23,10 @@ import InstagramIcon from '../src/assets/img/social/instagram.png';
 import YoutubeIcon from '../src/assets/img/social/youtube.png';
 import PinterestIcon from '../src/assets/img/social/pinterest.png';
 
+// import partners 
+import sbi from '../src/assets/img/partners.png';
+import bob from '../src/assets/img/bob.png';
+
 // navigation data
 export const navigation = [
   {
@@ -147,4 +151,9 @@ export const social = [
   {
     icon: PinterestIcon,
   },
+];
+
+export const partner = [
+  {  img: sbi },
+  { img:  bob },
 ];

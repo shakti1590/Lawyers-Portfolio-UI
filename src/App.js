@@ -9,6 +9,7 @@ import Subscribe from './components/Subscribe';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
+import Partners from './components/Partners';
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Banner />
       <Testimonials />
       <Skills />
+      <Partners />
       <Team />
       <Subscribe />
       <Contact />

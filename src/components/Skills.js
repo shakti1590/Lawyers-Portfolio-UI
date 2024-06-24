@@ -8,11 +8,11 @@ const Skills = () => {
     <section id='skills' className='section bg-[#f8f3eca1] pb-32'>
       <div className='container mx-auto text-center'>
         <h2 className='text-5xl font-primary font-extrabold mb-4'>
-          What we do
+          Explore our digital services stack
         </h2>
         <p className='max-w-[540px] mx-auto px-6 lg:px-0 mb-[60px]'>
-          Lorem ipsum is common placeholder text used to demonstrate the graphic
-          elements of a document or visual presentation.
+          Grow your business and remain compliance by partnering with green house association for a range of high quality, 
+          business services from incorporation to payroll delivered through a seamless online platform.
         </p>
         <div className='lg:grid lg:grid-cols-3 gap-12'>
           {skills.map((item, index) => {
