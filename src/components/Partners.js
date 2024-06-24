@@ -7,7 +7,7 @@ function Partners() {
   return (
     <div className="bg-white py-12">
       <div className="max-w-6xl mx-auto text-center">
-        <h2 className="text-3xl font-bold mb-4">Industry leading partnerships</h2>
+        <h2 className="text-3xl font-bold mb-4">Industry leading Partnerships</h2>
         <p className="text-gray-600 mb-8">
           We work with top Indian Institutions to further our shared mission of improving ease of doing business and promoting Entrepreneurship in India.
         </p>

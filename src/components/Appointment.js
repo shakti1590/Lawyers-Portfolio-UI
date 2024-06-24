@@ -9,24 +9,24 @@ const Appointment = () => {
       {/* bar */}
       <div className='w-[54px] h-[3px] rounded-lg bg-white my-6 mx-auto'></div>
       {/* input group */}
-      <div className='space-y-[24px]'>
-        <input className='form-control' placeholder='Full name' type='text' />
+      <div className='space-y-[24px]' >
+        <input className='form-control rounded-lg' placeholder='Full name' type='text' />
         <input
-          className='form-control'
+          className='form-control rounded-lg'
           placeholder='Phone number'
           type='text'
         />
         <input
-          className='form-control'
+          className='form-control rounded-lg'
           placeholder='Email address'
           type='email'
         />
         <textarea
-          className='resize-none w-full h-[132px] outline-none rounded-sm p-4 font-body text-sm text-gray focus:ring-1 focus:ring-primary'
+          className='resize-none w-full h-[132px] outline-none rounded-lg p-4 font-body text-sm text-gray focus:ring-1 focus:ring-primary'
           placeholder='Your message'
         ></textarea>
         {/* Button */}
-        <button className='btn bg-primary hover:bg-primary-hover transition-all'>
+        <button className='btn bg-primary hover:bg-primary-hover rounded-lg transition-all'>
           Send message
         </button>
       </div>

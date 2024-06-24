@@ -24,8 +24,10 @@ import YoutubeIcon from '../src/assets/img/social/youtube.png';
 import PinterestIcon from '../src/assets/img/social/pinterest.png';
 
 // import partners 
-import sbi from '../src/assets/img/partners.png';
-import bob from '../src/assets/img/bob.png';
+import axis from '../src/assets/img/axis-bank.jpg';
+import icic from '../src/assets/img/icici-bank.jpg';
+import hdfc from '../src/assets/img/hdfc.jpeg';
+import kotak from '../src/assets/img/kotak.jpg'
 
 // navigation data
 export const navigation = [
@@ -73,37 +75,37 @@ export const testimonials = [
 export const skills = [
   {
     icon: Skill1,
-    title: 'Corruption',
+    title: 'Incorporation',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill2,
-    title: 'Employment',
+    title: 'Trademark',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill3,
-    title: 'Real Estate',
+    title: 'Accounting',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill4,
-    title: 'Taxes',
+    title: 'Income Tax',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill5,
-    title: 'Corporate',
+    title: 'GST Services',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill6,
-    title: 'Banking',
+    title: 'Payroll',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
@@ -112,23 +114,23 @@ export const skills = [
 // team data
 export const team = [
   {
-    image: TeamMember1,
-    name: 'Jane William',
-    position: 'Band & Financial Lawyer',
+    image: TeamMember3,
+    name: 'Balram Choubey',
+    position: 'Advocate on record Patna High Court',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     image: TeamMember2,
-    name: 'Andrea Collins',
-    position: 'Family Lawyer',
+    name: 'Balram Choubey',
+    position: 'Advocate on record Patna High Court',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
-    image: TeamMember3,
-    name: 'John Smith',
-    position: 'Business Lawyer',
+    image: TeamMember1,
+    name: 'Balram Choubey',
+    position: 'Advocate on record Patna High Court',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
@@ -154,6 +156,8 @@ export const social = [
 ];
 
 export const partner = [
-  {  img: sbi },
-  { img:  bob },
+  {  img: axis },
+  { img:  hdfc },
+  { img: icic },
+  { img: kotak},
 ];

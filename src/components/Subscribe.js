@@ -12,11 +12,11 @@ const Subscribe = () => {
         </p>
         <form className='max-w-[600px] mx-auto flex flex-col lg:flex-row'>
           <input
-            className='form-control mb-4'
+            className='form-control mb-4 rounded-lg'
             type='text'
             placeholder='Your email address'
           />
-          <button className='btn bg-primary hover:bg-primary-hover lg:max-w-[150px] lg:ml-4'>
+          <button className='btn bg-primary hover:bg-primary-hover rounded-lg lg:max-w-[150px] lg:ml-4'>
             Join
           </button>
         </form>
