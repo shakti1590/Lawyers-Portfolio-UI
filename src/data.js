@@ -36,15 +36,15 @@ export const navigation = [
     href: 'home',
   },
   {
-    name: 'What we do',
+    name: 'Services',
     href: 'skills',
   },
   {
-    name: 'Our team',
+    name: 'Registration',
     href: 'team',
   },
   {
-    name: 'Contact us',
+    name: 'Compliances',
     href: 'contact',
   },
 ];
