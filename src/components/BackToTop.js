@@ -24,7 +24,7 @@ const BackToTop = () => {
     show && (
       <button
         onClick={() => scrollToTop()}
-        className='flex justify-center items-center fixed bottom-16 lg:bottom-8 right-8 w-12 h-12 bg-primary-hover rounded-full cursor-pointer text-white text-sm z-10'
+        className='flex justify-center items-center fixed bottom-16 lg:bottom-8 right-8 w-12 h-12 bg-indigo-600 rounded-full cursor-pointer text-white text-sm z-10'
       >
         <FaChevronUp />
       </button>

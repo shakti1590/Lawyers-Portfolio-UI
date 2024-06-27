@@ -4,23 +4,20 @@ import React from 'react';
 import Banner from './components/Banner';
 import Testimonials from './components/Testimonials';
 import Skills from './components/Skills';
-import Team from './components/Team';
-import Subscribe from './components/Subscribe';
-import Contact from './components/Contact';
+import About from './components/Aboutus';
+import Faq from './components/faq';
 import Footer from './components/Footer';
 import BackToTop from './components/BackToTop';
-import Partners from './components/Partners';
-
+import Whychoose from './components/Whychooseus';
 const App = () => {
   return (
     <div>
       <Banner />
       <Testimonials />
+      <About />
       <Skills />
-      <Partners />
-      <Team />
-      <Subscribe />
-      <Contact />
+      <Whychoose />
+      <Faq />
       <Footer />
       <BackToTop />
     </div>

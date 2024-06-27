@@ -10,6 +10,9 @@ import Skill3 from '../src/assets/img/skills/skill3.png';
 import Skill4 from '../src/assets/img/skills/skill4.png';
 import Skill5 from '../src/assets/img/skills/skill5.png';
 import Skill6 from '../src/assets/img/skills/skill6.png';
+import Skill7 from '../src/assets/img/skills/skill6.png';
+import Skill8 from '../src/assets/img/skills/skill6.png';
+import Skill9 from '../src/assets/img/skills/skill6.png';
 
 // import team images
 import TeamMember1 from '../src/assets/img/lawyer1.png';
@@ -36,15 +39,19 @@ export const navigation = [
     href: 'home',
   },
   {
+    name: 'About',
+    herf: 'about',
+  },
+  {
     name: 'Services',
     href: 'skills',
   },
   {
-    name: 'Registration',
-    href: 'team',
+    name: 'Testimonial',
+    href: 'testimonial',
   },
   {
-    name: 'Compliances',
+    name: 'Contact',
     href: 'contact',
   },
 ];
@@ -75,37 +82,55 @@ export const testimonials = [
 export const skills = [
   {
     icon: Skill1,
-    title: 'Incorporation',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill2,
-    title: 'Trademark',
-    description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
-  },
-  {
-    icon: Skill3,
     title: 'Accounting',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
+    icon: Skill2,
+    title: 'Labour License',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
+    icon: Skill3,
+    title: 'Fassai',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
     icon: Skill4,
-    title: 'Income Tax',
+    title: 'Trade Mark',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill5,
-    title: 'GST Services',
+    title: 'EPF',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
   {
     icon: Skill6,
-    title: 'Payroll',
+    title: 'ESIC',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
+    icon: Skill7,
+    title: 'Professional Tax',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
+    icon: Skill8,
+    title: 'DSC',
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+  },
+  {
+    icon: Skill9,
+    title: 'Project Report',
     description:
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
   },
