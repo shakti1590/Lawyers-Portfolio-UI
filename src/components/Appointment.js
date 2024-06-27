@@ -2,7 +2,7 @@ import React from 'react';
 
 const Appointment = () => {
   return (
-    <div className='bg-accent w-full p-8 rounded-lg max-w-[22rem] md:max-w-md mx-auto'>
+    <div className='bg-[#4F46E5] w-full p-8 rounded-lg max-w-[22rem] md:max-w-md mx-auto'>
       <h3 className='text-white text-[28px] font-bold tracking-[0.3px] text-center'>
         Get an appointment
       </h3>
@@ -26,7 +26,7 @@ const Appointment = () => {
           placeholder='Your message'
         ></textarea>
         {/* Button */}
-        <button className='btn bg-primary hover:bg-primary-hover rounded-lg transition-all'>
+        <button className='btn bg-black hover:bg-primary-hover rounded-lg transition-all'>
           Send message
         </button>
       </div>

@@ -8,7 +8,7 @@ import { Link } from 'react-scroll';
 const Nav = () => {
   return (
     <nav className='hidden lg:flex'>
-      <ul className='lg:flex space-x-6 font-body font-semibold text-sm text-primary'>
+      <ul className='lg:flex space-x-6 font-body font-semibold text-sm text-black'>
         {navigation.map((item, index) => {
           return (
             <li key={index}>
@@ -18,7 +18,7 @@ const Nav = () => {
                 offset={-120}
                 activeClass='active'
                 spy={true}
-                className='hover:text-accent-hover transition-all duration-300'
+                className='hover:text-blue-600 transition-all duration-300'
                 href='#'
               >
                 {item.name}

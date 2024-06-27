@@ -19,6 +19,6 @@
     @apply w-full pl-4 pt-4 rounded-sm outline-none font-body text-sm text-gray focus:ring-1 focus:ring-primary min-h-[126px] resize-none;
   }
   .active {
-    @apply text-accent-hover;
+    @apply text-blue-600;
   }
 }

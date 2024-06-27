@@ -59,19 +59,19 @@ export const navigation = [
 // testimonials data
 export const testimonials = [
   {
-    text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem rem ad consequuntur similique sequi illum dolorum omnis inventore labore odio!',
+    text: 'Working with Green House Association has been a game-changer for our business. Their expert advice and seamless services have not only simplified our compliance needs but also boosted our operational efficiency. Highly recommended!',
     name: 'Jane Cooper',
     image: ProfilePhoto1,
     position: 'Web Developer',
   },
   {
-    text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem rem ad consequuntur similique sequi illum dolorum omnis inventore labore odio!',
+    text: 'Choosing Green House Association was one of the best decisions we made. Their dedicated team understands our unique challenges and consistently delivers solutions that exceed expectations. Trustworthy and reliable, they truly care about our success.',
     name: 'Theresa Webb',
     image: ProfilePhoto2,
     position: 'Web Designer',
   },
   {
-    text: 'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem rem ad consequuntur similique sequi illum dolorum omnis inventore labore odio!',
+    text: 'I have relied on Green House Association for years, and they ve never let me down. From accounting to legal support, their comprehensive services have been crucial in scaling our business. Their proactive approach and deep expertise make them our trusted partner.',
     name: 'Kathryn Murphy',
     image: ProfilePhoto3,
     position: 'UI/UX Designer',
@@ -84,55 +84,55 @@ export const skills = [
     icon: Skill1,
     title: 'Accounting',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Expert accounting services to ensure your financial health and compliance.',
   },
   {
     icon: Skill2,
     title: 'Labour License',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Assistance in obtaining and maintaining labour licenses to meet regulatory requirements.',
   },
   {
     icon: Skill3,
     title: 'Fassai',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Guidance and support for FSSAI registration and compliance for food businesses.',
   },
   {
     icon: Skill4,
     title: 'Trade Mark',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Protect your brand with our trademark registration and protection services.',
   },
   {
     icon: Skill5,
     title: 'EPF',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Efficient management of Employee Provident Fund (EPF) registrations and compliance.',
   },
   {
     icon: Skill6,
     title: 'ESIC',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Comprehensive ESIC registration and compliance services for employee welfare.',
   },
   {
     icon: Skill7,
     title: 'Professional Tax',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Simplified professional tax registration and compliance services.',
   },
   {
     icon: Skill8,
     title: 'DSC',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Digital Signature Certificate (DSC) issuance and management for secure online transactions.',
   },
   {
     icon: Skill9,
     title: 'Project Report',
     description:
-      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed erat nibh tristique ipsum.',
+      'Detailed and professionally crafted project reports to support your business plans and funding requirements.',
   },
 ];
 

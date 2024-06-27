@@ -45,7 +45,7 @@ const Footer = () => {
                     <a href="#"  className="flex justify-center lg:justify-start">
                         <img src={Logo} alt="Logo" className="h-20 w-auto"></img>
                     </a>
-                    <p className="py-8 text-gray-500 lg:max-w-xs text-center lg:text-left">Trusted in more than 100 countries & 5 million customers. Have any query ?</p>
+                    <p className="py-8 text-gray-500 lg:max-w-xs text-center lg:text-left">we help you navigate the complexities of compliance and financial management.</p>
                     <a href="javascript:;"  className="py-2.5 px-5 h-9 block w-fit font- bg-indigo-600 rounded-full shadow-sm text-xs text-white mx-auto transition-all  duration-500 hover:bg-indigo-700 lg:mx-0">
                         Contact us
                     </a>
