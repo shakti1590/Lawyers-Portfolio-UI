@@ -74,7 +74,8 @@ const Contactpage = () => {
               Come say hello at our office HQ.
             </p>
             <p className="mt-2 text-blue-500 dark:text-blue-400">
-              Govind Nagar Kanpur
+              C2, Lane No.2, Chankya Colony, Fazalngaj, Sasaram, Rohtas, Bihar
+              821115
             </p>
           </div>
 

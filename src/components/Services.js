@@ -8,7 +8,7 @@ const Services = () => {
           <div class="w-full px-4">
             <div class="text-center mx-auto mb-10 lg:mb-10 max-w-[510px]">
               <span class="font-semibold text-2xl text-[#3056d3] mb-2 block">
-                Our Services
+                Our Expertise
               </span>
               <h2
                 className="
@@ -70,10 +70,9 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Accounting</h4>
+              <h4 class="font-semibold text-xl text-dark mb-3">Corporate and Business Law</h4>
               <p class="text-[#637381]">
-                Expert accounting services to ensure your financial health and
-                compliance.
+                Strategic counsel on corporate governance, transactions, contracts, and compliance.
               </p>
             </div>
           </div>
@@ -122,11 +121,10 @@ const Services = () => {
                 </svg>
               </div>
               <h4 class="font-semibold text-xl text-dark mb-3">
-                Labour License
+                Litigation and Dispute Resolution
               </h4>
               <p class="text-[#637381]">
-                Assistance in obtaining and maintaining labour licenses to meet
-                regulatory requirements.
+                Representation and advocacy in civil litigation, arbitration, and alternative dispute resolution.
               </p>
             </div>
           </div>
@@ -180,10 +178,9 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">FSSAI</h4>
+              <h4 class="font-semibold text-xl text-dark mb-3">Employment Law</h4>
               <p class="text-[#637381]">
-                Guidance and support for FSSAI registration and compliance for
-                food businesses.
+                Guidance on employment contracts, workplace policies, and resolution of labor disputes.
               </p>
             </div>
           </div>
@@ -237,10 +234,9 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Trade Mark</h4>
+              <h4 class="font-semibold text-xl text-dark mb-3">Intellectual Property</h4>
               <p class="text-[#637381]">
-                Protect your brand with our trademark registration and
-                protection services.
+                Protection and management of intellectual property rights, including patents, trademarks, and copyrights.
               </p>
             </div>
           </div>
@@ -282,10 +278,9 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">EPF</h4>
+              <h4 class="font-semibold text-xl text-dark mb-3">Real Estate and Property Law</h4>
               <p class="text-[#637381]">
-                Efficient management of Employee Provident Fund (EPF)
-                registrations and compliance.
+                Assistance with property transactions, leases, zoning issues, and land use regulations.
               </p>
             </div>
           </div>
@@ -331,166 +326,14 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">ESIC</h4>
+              <h4 class="font-semibold text-xl text-dark mb-3">Regulatory Compliance</h4>
               <p class="text-[#637381]">
-                Comprehensive ESIC registration and compliance services for
-                employee welfare.
+                Advice on regulatory requirements, risk management, and corporate governance best practices.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
-               "
-            >
-              <div
-                class="
-                  w-[70px]
-                  h-[70px]
-                  flex
-                  items-center
-                  justify-center
-                  bg-[#3056d3]
-                  rounded-2xl
-                  mb-8
-                  "
-              >
-                <svg
-                  width="35"
-                  height="35"
-                  viewBox="0 0 35 35"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.04684 15.5859C4.2109 15.5859 4.37497 15.5859 4.48434 15.5313L10.5547 13.3984C11.0468 13.2344 11.3203 12.6875 11.1562 12.1953C10.9922 11.7031 10.4453 11.4297 9.95309 11.5938L6.28903 12.9063C8.09372 7.92969 12.8515 4.53906 18.375 4.53906C24.2265 4.53906 29.3672 8.42188 30.789 14.0547C30.8984 14.5469 31.4453 14.875 31.9375 14.7656C32.4297 14.6563 32.7578 14.1094 32.6484 13.6172C31.0078 7.16406 25.1015 2.67969 18.375 2.67969C11.8125 2.67969 6.12497 6.89063 4.26559 13.0156L2.57028 8.25781C2.40622 7.76563 1.85934 7.49219 1.36715 7.65625C0.874967 7.82031 0.60153 8.36719 0.765592 8.85938L2.84372 14.8203C3.00778 15.2578 3.55465 15.5859 4.04684 15.5859Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M34.2343 27.2891L31.9922 21.3828C31.8828 21.0547 31.6093 20.7812 31.2812 20.6719C30.9531 20.5625 30.625 20.5078 30.2968 20.6719L24.2812 22.9687C23.789 23.1328 23.5156 23.7344 23.7343 24.2266C23.8984 24.7187 24.5 24.9922 24.9922 24.7734L28.7109 23.3516C26.6328 27.6719 22.2031 30.5156 17.1718 30.5156C11.6484 30.5156 6.78122 27.0703 5.0859 21.9297C4.86715 21.4375 4.32028 21.1641 3.82809 21.3281C3.3359 21.4922 3.06247 22.0391 3.22653 22.5312C5.19528 28.4375 10.7734 32.4297 17.1172 32.4297C23.1328 32.4297 28.4922 28.875 30.6797 23.4609L32.4297 28C32.5937 28.3828 32.9218 28.6016 33.3047 28.6016C33.414 28.6016 33.5234 28.6016 33.6328 28.5469C34.1797 28.3281 34.4531 27.7813 34.2343 27.2891Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">
-                Professional Tax
-              </h4>
-              <p class="text-[#637381]">
-                Simplified professional taxes registration and compliance
-                services for all payers.
-              </p>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
-               "
-            >
-              <div
-                class="
-                  w-[70px]
-                  h-[70px]
-                  flex
-                  items-center
-                  justify-center
-                  bg-[#3056d3]
-                  rounded-2xl
-                  mb-8
-                  "
-              >
-                <svg
-                  width="35"
-                  height="35"
-                  viewBox="0 0 35 35"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.04684 15.5859C4.2109 15.5859 4.37497 15.5859 4.48434 15.5313L10.5547 13.3984C11.0468 13.2344 11.3203 12.6875 11.1562 12.1953C10.9922 11.7031 10.4453 11.4297 9.95309 11.5938L6.28903 12.9063C8.09372 7.92969 12.8515 4.53906 18.375 4.53906C24.2265 4.53906 29.3672 8.42188 30.789 14.0547C30.8984 14.5469 31.4453 14.875 31.9375 14.7656C32.4297 14.6563 32.7578 14.1094 32.6484 13.6172C31.0078 7.16406 25.1015 2.67969 18.375 2.67969C11.8125 2.67969 6.12497 6.89063 4.26559 13.0156L2.57028 8.25781C2.40622 7.76563 1.85934 7.49219 1.36715 7.65625C0.874967 7.82031 0.60153 8.36719 0.765592 8.85938L2.84372 14.8203C3.00778 15.2578 3.55465 15.5859 4.04684 15.5859Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M34.2343 27.2891L31.9922 21.3828C31.8828 21.0547 31.6093 20.7812 31.2812 20.6719C30.9531 20.5625 30.625 20.5078 30.2968 20.6719L24.2812 22.9687C23.789 23.1328 23.5156 23.7344 23.7343 24.2266C23.8984 24.7187 24.5 24.9922 24.9922 24.7734L28.7109 23.3516C26.6328 27.6719 22.2031 30.5156 17.1718 30.5156C11.6484 30.5156 6.78122 27.0703 5.0859 21.9297C4.86715 21.4375 4.32028 21.1641 3.82809 21.3281C3.3359 21.4922 3.06247 22.0391 3.22653 22.5312C5.19528 28.4375 10.7734 32.4297 17.1172 32.4297C23.1328 32.4297 28.4922 28.875 30.6797 23.4609L32.4297 28C32.5937 28.3828 32.9218 28.6016 33.3047 28.6016C33.414 28.6016 33.5234 28.6016 33.6328 28.5469C34.1797 28.3281 34.4531 27.7813 34.2343 27.2891Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">DSC</h4>
-              <p class="text-[#637381]">
-                Digital Signature Certificate issuance and management for secure
-                online transactions.
-              </p>
-            </div>
-          </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
-            <div
-              class="
-               p-10
-               md:px-7
-               xl:px-10
-               rounded-[20px]
-               bg-white
-               shadow-md
-               hover:shadow-lg
-               mb-8
-               "
-            >
-              <div
-                class="
-                  w-[70px]
-                  h-[70px]
-                  flex
-                  items-center
-                  justify-center
-                  bg-[#3056d3]
-                  rounded-2xl
-                  mb-8
-                  "
-              >
-                <svg
-                  width="35"
-                  height="35"
-                  viewBox="0 0 35 35"
-                  fill="none"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    d="M4.04684 15.5859C4.2109 15.5859 4.37497 15.5859 4.48434 15.5313L10.5547 13.3984C11.0468 13.2344 11.3203 12.6875 11.1562 12.1953C10.9922 11.7031 10.4453 11.4297 9.95309 11.5938L6.28903 12.9063C8.09372 7.92969 12.8515 4.53906 18.375 4.53906C24.2265 4.53906 29.3672 8.42188 30.789 14.0547C30.8984 14.5469 31.4453 14.875 31.9375 14.7656C32.4297 14.6563 32.7578 14.1094 32.6484 13.6172C31.0078 7.16406 25.1015 2.67969 18.375 2.67969C11.8125 2.67969 6.12497 6.89063 4.26559 13.0156L2.57028 8.25781C2.40622 7.76563 1.85934 7.49219 1.36715 7.65625C0.874967 7.82031 0.60153 8.36719 0.765592 8.85938L2.84372 14.8203C3.00778 15.2578 3.55465 15.5859 4.04684 15.5859Z"
-                    fill="white"
-                  />
-                  <path
-                    d="M34.2343 27.2891L31.9922 21.3828C31.8828 21.0547 31.6093 20.7812 31.2812 20.6719C30.9531 20.5625 30.625 20.5078 30.2968 20.6719L24.2812 22.9687C23.789 23.1328 23.5156 23.7344 23.7343 24.2266C23.8984 24.7187 24.5 24.9922 24.9922 24.7734L28.7109 23.3516C26.6328 27.6719 22.2031 30.5156 17.1718 30.5156C11.6484 30.5156 6.78122 27.0703 5.0859 21.9297C4.86715 21.4375 4.32028 21.1641 3.82809 21.3281C3.3359 21.4922 3.06247 22.0391 3.22653 22.5312C5.19528 28.4375 10.7734 32.4297 17.1172 32.4297C23.1328 32.4297 28.4922 28.875 30.6797 23.4609L32.4297 28C32.5937 28.3828 32.9218 28.6016 33.3047 28.6016C33.414 28.6016 33.5234 28.6016 33.6328 28.5469C34.1797 28.3281 34.4531 27.7813 34.2343 27.2891Z"
-                    fill="white"
-                  />
-                </svg>
-              </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">
-                Project Report
-              </h4>
-              <p class="text-[#637381]">
-                Detailed and professionally crafted project reports to support
-                your business plans.
-              </p>
-            </div>
           </div>
         </div>
-      </div>
     </section>
   );
 };

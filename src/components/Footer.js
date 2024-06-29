@@ -61,7 +61,7 @@ const Footer = () => {
                     </ul>
                 </div>
                 <div className="lg:mx-auto text-left ">
-                    <h4 className="text-lg text-gray-900 font-bold mb-7">Top Services</h4>
+                    <h4 className="text-lg text-gray-900 font-bold mb-7">Expertise</h4>
                     <ul className="text-sm  transition-all duration-500">
                         <li className="mb-6"><a href="javascript:;"  className="text-gray-600 hover:text-gray-900">Accounting</a></li>
                         <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 hover:text-gray-900">Labour License</a></li>

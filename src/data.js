@@ -47,8 +47,12 @@ export const navigation = [
     href: 'skills',
   },
   {
-    name: 'Testimonial',
-    href: 'testimonial',
+    name: 'Business',
+    href: 'Business',
+  },
+  {
+    name: 'Personal',
+    href: 'Personal',
   },
   {
     name: 'Contact',
@@ -100,39 +104,39 @@ export const skills = [
   },
   {
     icon: Skill4,
-    title: 'Trade Mark',
+    title: 'Corporate and Business Law',
     description:
-      'Protect your brand with our trademark registration and protection services.',
+      'Strategic counsel on corporate governance, transactions, contracts, and compliance.',
   },
   {
     icon: Skill5,
-    title: 'EPF',
+    title: 'Litigation and Dispute Resolution',
     description:
-      'Efficient management of Employee Provident Fund (EPF) registrations and compliance.',
+      'Representation and advocacy in civil litigation, arbitration, and alternative dispute resolution.',
   },
   {
     icon: Skill6,
-    title: 'ESIC',
+    title: 'Employment Law',
     description:
-      'Comprehensive ESIC registration and compliance services for employee welfare.',
+      'Guidance on employment contracts, workplace policies, and resolution of labor disputes.',
   },
   {
     icon: Skill7,
-    title: 'Professional Tax',
+    title: 'Intellectual Property',
     description:
-      'Simplified professional tax registration and compliance services.',
+      'Protection and management of intellectual property rights, including patents, trademarks, and copyrights.',
   },
   {
     icon: Skill8,
-    title: 'DSC',
+    title: 'Real Estate and Property Law',
     description:
-      'Digital Signature Certificate (DSC) issuance and management for secure online transactions.',
+      'Assistance with property transactions, leases, zoning issues, and land use regulations..',
   },
   {
     icon: Skill9,
-    title: 'Project Report',
+    title: 'Family and Estate Law',
     description:
-      'Detailed and professionally crafted project reports to support your business plans and funding requirements.',
+      'Counsel on family matters, estate planning, trusts, and probate proceedings.',
   },
 ];
 
