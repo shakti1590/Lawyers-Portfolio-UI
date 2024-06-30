@@ -1,5 +1,5 @@
 import React from 'react';
-import Logo from '../assets/img/gha.png';
+import Logo from '../assets/img/logoo.png';
 const Footer = () => {
   return (
         <footer className="w-full py-14">
