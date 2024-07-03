@@ -12,14 +12,6 @@ const Headers = () => {
   };
 
   const menuItems = {
-    Support: [
-      { name: 'Register your business', link: '/register-business' },
-      { name: 'Limited liability company (LLC)', link: '/llc' },
-      { name: 'Corporation (C corp, S corp)', link: '/corporation' },
-      { name: 'Doing business as (DBA)', link: '/dba' },
-      { name: 'Nonprofit', link: '/nonprofit' },
-      { name: 'Sole proprietorship', link: '/sole-proprietorship' }
-    ],
     Business: [
       { name: 'Protect your business', link: '/protect-business' },
       { name: 'Trademark registration', link: '/trademark-registration' },
@@ -38,7 +30,7 @@ const Headers = () => {
       { name: 'Copyright', link: '/copyright' },
       { name: 'Business attorneys', link: '/business-attorneys' }
     ],
-    Attorneys: [
+    Casework: [
       { name: 'Protect your business', link: '/protect-business' },
       { name: 'Trademark registration', link: '/trademark-registration' },
       { name: 'Trademark search', link: '/trademark-search' },
@@ -47,7 +39,7 @@ const Headers = () => {
       { name: 'Copyright', link: '/copyright' },
       { name: 'Business attorneys', link: '/business-attorneys' }
     ],
-    Forms: [
+    Expertise: [
       { name: 'Protect your business', link: '/protect-business' },
       { name: 'Trademark registration', link: '/trademark-registration' },
       { name: 'Trademark search', link: '/trademark-search' },
@@ -55,6 +47,14 @@ const Headers = () => {
       { name: 'Provisional patent', link: '/provisional-patent' },
       { name: 'Copyright', link: '/copyright' },
       { name: 'Business attorneys', link: '/business-attorneys' }
+    ],
+    Support: [
+      { name: 'Register your business', link: '/register-business' },
+      { name: 'Limited liability company (LLC)', link: '/llc' },
+      { name: 'Corporation (C corp, S corp)', link: '/corporation' },
+      { name: 'Doing business as (DBA)', link: '/dba' },
+      { name: 'Nonprofit', link: '/nonprofit' },
+      { name: 'Sole proprietorship', link: '/sole-proprietorship' }
     ]
   };
 
