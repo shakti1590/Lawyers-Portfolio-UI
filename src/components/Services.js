@@ -2,12 +2,12 @@ import React from 'react'
 
 const Services = () => {
   return (
-    <section class="pt-8 lg:pt-[120px] pb-8 lg:pb-[90px]">
-      <div class="container">
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full px-4">
-            <div class="text-center mx-auto mb-10 lg:mb-10 max-w-[510px]">
-              <span class="font-semibold text-2xl text-[#3056d3] mb-2 block">
+    <section className="pt-8 lg:pt-[120px] pb-8 lg:pb-[90px]">
+      <div className="container">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full px-4">
+            <div className="text-center mx-auto mb-10 lg:mb-10 max-w-[510px]">
+              <span className="font-semibold text-2xl text-[#3056d3] mb-2 block">
                 Our Expertise
               </span>
               <h2
@@ -22,7 +22,7 @@ const Services = () => {
               >
                 What We Offer
               </h2>
-              <p class="text-base text-[#0d0f11]">
+              <p className="text-base text-[#0d0f11]">
                 Grow your business and remain compliance by partnering with
                 green house association for a range of high quality, business
                 services from incorporation to payroll delivered through a
@@ -31,10 +31,10 @@ const Services = () => {
             </div>
           </div>
         </div>
-        <div class="flex flex-wrap -mx-4">
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+        <div className="flex flex-wrap -mx-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -46,7 +46,7 @@ const Services = () => {
                "
             >
               <div
-                class="
+                className="
                   w-[70px]
                   h-[70px]
                   flex
@@ -70,15 +70,15 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Corporate and Business Law</h4>
-              <p class="text-[#637381]">
+              <h4 className="font-semibold text-xl text-dark mb-3">Corporate and Business Law</h4>
+              <p className="text-[#637381]">
                 Strategic counsel on corporate governance, transactions, contracts, and compliance.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -120,17 +120,17 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">
+              <h4 className="font-semibold text-xl text-dark mb-3">
                 Litigation and Dispute Resolution
               </h4>
-              <p class="text-[#637381]">
+              <p className="text-[#637381]">
                 Representation and advocacy in civil litigation, arbitration, and alternative dispute resolution.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -142,7 +142,7 @@ const Services = () => {
                "
             >
               <div
-                class="
+                className="
                   w-[70px]
                   h-[70px]
                   flex
@@ -178,15 +178,15 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Employment Law</h4>
-              <p class="text-[#637381]">
+              <h4 className="font-semibold text-xl text-dark mb-3">Employment Law</h4>
+              <p className="text-[#637381]">
                 Guidance on employment contracts, workplace policies, and resolution of labor disputes.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -198,7 +198,7 @@ const Services = () => {
                "
             >
               <div
-                class="
+                className="
                   w-[70px]
                   h-[70px]
                   flex
@@ -234,15 +234,15 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Intellectual Property</h4>
-              <p class="text-[#637381]">
+              <h4 className="font-semibold text-xl text-dark mb-3">Intellectual Property</h4>
+              <p className="text-[#637381]">
                 Protection and management of intellectual property rights, including patents, trademarks, and copyrights.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -254,7 +254,7 @@ const Services = () => {
                "
             >
               <div
-                class="
+                className="
                   w-[70px]
                   h-[70px]
                   flex
@@ -278,15 +278,15 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Real Estate and Property Law</h4>
-              <p class="text-[#637381]">
+              <h4 className="font-semibold text-xl text-dark mb-3">Real Estate and Property Law</h4>
+              <p className="text-[#637381]">
                 Assistance with property transactions, leases, zoning issues, and land use regulations.
               </p>
             </div>
           </div>
-          <div class="w-full md:w-1/2 lg:w-1/3 px-4">
+          <div className="w-full md:w-1/2 lg:w-1/3 px-4">
             <div
-              class="
+              className="
                p-10
                md:px-7
                xl:px-10
@@ -298,7 +298,7 @@ const Services = () => {
                "
             >
               <div
-                class="
+                className="
                   w-[70px]
                   h-[70px]
                   flex
@@ -326,8 +326,8 @@ const Services = () => {
                   />
                 </svg>
               </div>
-              <h4 class="font-semibold text-xl text-dark mb-3">Regulatory Compliance</h4>
-              <p class="text-[#637381]">
+              <h4 className="font-semibold text-xl text-dark mb-3">Regulatory Compliance</h4>
+              <p className="text-[#637381]">
                 Advice on regulatory requirements, risk management, and corporate governance best practices.
               </p>
             </div>
