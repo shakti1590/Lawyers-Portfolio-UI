@@ -57,7 +57,7 @@ const Footer = () => {
                         <li className="mb-6"><a href="/about"  className=" text-gray-600 whitespace-nowrap hover:text-gray-900">About</a></li>
                         <li className="mb-6"><a href="/careers"  className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Careers</a></li>
                         <li className="mb-6"><a href="javascript:;"  className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Blogs</a></li>
-                        <li className="mb-6"><a href="/contact"  className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Contact</a></li>
+                        <li className="mb-6"><a href="/contact-us"  className=" text-gray-600 whitespace-nowrap hover:text-gray-900">Contact</a></li>
                     </ul>
                 </div>
                 <div className="lg:mx-auto text-left ">
