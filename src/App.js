@@ -1,26 +1,31 @@
-import React from 'react';
-
+import React from "react";
+import {
+  BrowserRouter as Router,
+  Route,
+  Routes,
+} from "react-router-dom";
 // import components
-import Banner from './components/Banner';
-import Testimonials from './components/Testimonials';
-import Services from './components/Services';
-import About from './components/Aboutus';
-import Faq from './components/faq';
-import Footer from './components/Footer';
-import BackToTop from './components/BackToTop';
-import Whychoose from './components/Whychooseus';
+
+import Footer from "./components/Footer";
+import BackToTop from "./components/BackToTop";
+import Home from "./Pages/Home";
+import Aboutpage from "./Pages/Aboutpage";
+import Privacypolicy from "./Pages/Privacypolicy";
+import JobOpeningSection from "./Pages/Career";
 const App = () => {
   return (
-    <div>
-      <Banner />
-      <Testimonials />
-      <About />
-      <Services />
-      <Whychoose />
-      <Faq />
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/" element={<Home/>} />
+          <Route path="/about" element={<Aboutpage/>} />
+          <Route path="/careers" element={<JobOpeningSection/>} />
+          <Route path="/privacy-policy" element={<Privacypolicy/>} />
+        </Routes>
+      </Router>
       <Footer />
       <BackToTop />
-    </div>
+    </>
   );
 };
 
