@@ -65,7 +65,7 @@ const JobOpeningSection = () => {
         <h3 className="text-2xl font-bold text-black mb-2">How To Apply:</h3>
         <p className="text-lg mb-8">
           If you are interested in joining our team, please send your resume and
-          a cover letter to career@gha.com. In your cover letter, tell us why
+          a cover letter to career@gha.org.in. In your cover letter, tell us why
           you are passionate about working at Green House Association and how
           your skills and experience align with our needs.
         </p>
@@ -80,10 +80,10 @@ const JobOpeningSection = () => {
           great things together.
         </p>
         <p className="text-lg mb-2 text-black">
-          <strong>Email:</strong> career@gha.com
+          <strong>Email:</strong> career@gha.org.in
         </p>
         <p className="text-lg text-black mb-8">
-          <strong>Phone:</strong> +91 99999999
+          <strong>Phone:</strong> +91 9473196196
         </p>
         <p className="text-lg mb-8 text-black">
           Join us at <strong>Green House Association</strong> and be a part of a
