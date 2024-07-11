@@ -12,6 +12,7 @@ import Home from "./Pages/Home";
 import Aboutpage from "./Pages/Aboutpage";
 import Privacypolicy from "./Pages/Privacypolicy";
 import JobOpeningSection from "./Pages/Career";
+import Contactpage from "./Pages/Contactpage";
 const App = () => {
   return (
     <>
@@ -21,6 +22,7 @@ const App = () => {
           <Route path="/about" element={<Aboutpage/>} />
           <Route path="/careers" element={<JobOpeningSection/>} />
           <Route path="/privacy-policy" element={<Privacypolicy/>} />
+          <Route path="/contact-us" element={<Contactpage/>} />
         </Routes>
       </Router>
       <Footer />

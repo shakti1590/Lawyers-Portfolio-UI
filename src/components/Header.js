@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Logo from '../assets/img/gha.png';
-import Mobilelogo from '../assets/img/logoo.png';
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -13,7 +12,9 @@ const Headers = () => {
 
   const menuItems = {
     Business: [
-      { name: 'Protect your business', link: '/protect-business' },
+      { name: 'Protect your business', link: '/protect-business' , submenu: [
+          { name: 'Earphone', link: '/products/electronics/earphones' },
+          { label: 'Buds', url: '/products/electronics/buds' }, ], },
       { name: 'Trademark registration', link: '/trademark-registration' },
       { name: 'Trademark search', link: '/trademark-search' },
       { name: 'Trademark monitoring', link: '/trademark-monitoring' },
@@ -91,6 +92,38 @@ const Headers = () => {
           </div>
         </div>
       </div>
+
+      {/* mega menu code */}
+{/* <div className='group'>
+                            <button className='hover:text-pink-400 transition border-b-2 border-white hover:border-pink-400 cursor-pointer'>Products</button>
+                            <div className='hidden group-hover:flex flex-col absolute left-0 top-16 p-10 w-full bg-white z-20 text-black duration-300'>
+                                <div className='grid grid-cols-2 md:grid-cols-4 gap-5'>
+                                    <div className='flex flex-col'>
+                                        <h3 className='mb-4 text-2xl text-pink-400'>Beauty Products</h3>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Makeup Kit</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Lotion</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Body Wash</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Face Pack</a>
+                                    </div>
+
+                                    <div className='flex flex-col'>
+                                        <h3 className='mb-4 text-2xl text-pink-400'>Beauty Products</h3>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Makeup Kit</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Lotion</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Body Wash</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Face Pack</a>
+                                    </div>
+
+                                    <div className='flex flex-col'>
+                                        <h3 className='mb-4 text-2xl text-pink-400'>Beauty Products</h3>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Makeup Kit</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Lotion</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Body Wash</a>
+                                        <a href="" className='hover:underline hover:text-pink-400'>Face Pack</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> */}
 
       <div className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -181,6 +214,21 @@ const Headers = () => {
 };
 
 export default Headers;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // import React, { useEffect, useState } from 'react';

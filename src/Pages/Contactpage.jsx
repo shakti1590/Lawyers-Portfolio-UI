@@ -5,7 +5,7 @@ const Contactpage = () => {
     <section className="bg-white dark:bg-gray-900">
       <div className="container px-6 py-12 mx-auto">
         <div className="text-center ">
-          <p className="text-blue-500 font-extrabold text-xl dark:text-blue-400">
+          <p className="text-[#4F46E5] font-extrabold text-xl dark:text-blue-400">
             Contact us
           </p>
           <h1 className="mt-2 text-2xl font-semibold text-gray-800 md:text-3xl dark:text-white">
@@ -41,7 +41,7 @@ const Contactpage = () => {
               Our friendly team is here to help.
             </p>
             <p className="mt-2 text-blue-500 dark:text-blue-400">
-              help@gha.com
+              helpdesk@gha.org.in
             </p>
           </div>
 
@@ -114,7 +114,7 @@ const Contactpage = () => {
             width="100%"
             height="100%"
             title="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d448193.95101732545!2d76.7635740668207!3d28.644287356528732!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cfd5b347eb62d%3A0x37205b715389640!2sDelhi!5e0!3m2!1sen!2sin!4v1719448681288!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d57878.204802734086!2d83.93101693663942!3d24.952917248763708!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x398db0cc8035805f%3A0x186db1ffca1ea333!2sSasaram%2C%20Bihar%20821115!5e0!3m2!1sen!2sin!4v1720712908851!5m2!1sen!2sin" loading="lazy"
           ></iframe>
         </div>
         <div className="w-full px-8 py-10 mx-auto overflow-hidden bg-white rounded-lg shadow-2xl dark:bg-gray-900 lg:max-w-xl shadow-gray-300/50 dark:shadow-black/50">
@@ -151,7 +151,7 @@ const Contactpage = () => {
                 placeholder="Message"
               ></textarea>
             </div>
-            <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-500 rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
+            <button className="w-full px-6 py-3 mt-6 text-sm font-medium tracking-wide text-white capitalize transition-colors duration-300 transform bg-[#4F46E5] rounded-md hover:bg-blue-400 focus:outline-none focus:ring focus:ring-blue-300 focus:ring-opacity-50">
               get in touch
             </button>
           </form>
