@@ -5,7 +5,7 @@ import {
   Routes,
 } from "react-router-dom";
 // import components
-
+import Header from './components/Header';
 import Footer from "./components/Footer";
 import BackToTop from "./components/BackToTop";
 import Home from "./Pages/Home";
@@ -16,6 +16,7 @@ import Contactpage from "./Pages/Contactpage";
 const App = () => {
   return (
     <>
+    <Header />
       <Router>
         <Routes>
           <Route exact path="/" element={<Home/>} />

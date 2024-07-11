@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import Logo from '../assets/img/gha.png';
-import Mobilelogo from '../assets/img/logoo.png';
+import menuItems from './menuItems';
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,61 +10,14 @@ const Headers = () => {
   const handleDropdownToggle = (menu) => {
     setDropdownOpen(dropdownOpen === menu ? null : menu);
   };
-
-  const menuItems = {
-    Business: [
-      { name: 'Protect your business', link: '/protect-business' },
-      { name: 'Trademark registration', link: '/trademark-registration' },
-      { name: 'Trademark search', link: '/trademark-search' },
-      { name: 'Trademark monitoring', link: '/trademark-monitoring' },
-      { name: 'Provisional patent', link: '/provisional-patent' },
-      { name: 'Copyright', link: '/copyright' },
-      { name: 'Business attorneys', link: '/business-attorneys' }
-    ],
-    Personal: [
-      { name: 'Protect your business', link: '/protect-business' },
-      { name: 'Trademark registration', link: '/trademark-registration' },
-      { name: 'Trademark search', link: '/trademark-search' },
-      { name: 'Trademark monitoring', link: '/trademark-monitoring' },
-      { name: 'Provisional patent', link: '/provisional-patent' },
-      { name: 'Copyright', link: '/copyright' },
-      { name: 'Business attorneys', link: '/business-attorneys' }
-    ],
-    Casework: [
-      { name: 'Protect your business', link: '/protect-business' },
-      { name: 'Trademark registration', link: '/trademark-registration' },
-      { name: 'Trademark search', link: '/trademark-search' },
-      { name: 'Trademark monitoring', link: '/trademark-monitoring' },
-      { name: 'Provisional patent', link: '/provisional-patent' },
-      { name: 'Copyright', link: '/copyright' },
-      { name: 'Business attorneys', link: '/business-attorneys' }
-    ],
-    Expertise: [
-      { name: 'Protect your business', link: '/protect-business' },
-      { name: 'Trademark registration', link: '/trademark-registration' },
-      { name: 'Trademark search', link: '/trademark-search' },
-      { name: 'Trademark monitoring', link: '/trademark-monitoring' },
-      { name: 'Provisional patent', link: '/provisional-patent' },
-      { name: 'Copyright', link: '/copyright' },
-      { name: 'Business attorneys', link: '/business-attorneys' }
-    ],
-    Support: [
-      { name: 'Register your business', link: '/register-business' },
-      { name: 'Limited liability company (LLC)', link: '/llc' },
-      { name: 'Corporation (C corp, S corp)', link: '/corporation' },
-      { name: 'Doing business as (DBA)', link: '/dba' },
-      { name: 'Nonprofit', link: '/nonprofit' },
-      { name: 'Sole proprietorship', link: '/sole-proprietorship' }
-    ]
-  };
+  console.log(menuItems)
 
   return (
     <nav className="bg-white shadow-md">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-1">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img className="h-8 w-auto md:hidden" src={Logo} alt="Mobile Logo" />
               <img className="h-12 w-auto hidden md:block" src={Logo} alt="Logo" />
             </div>
           </div>
@@ -100,10 +53,10 @@ const Headers = () => {
                 <div key={item} className="relative">
                   <button
                     onClick={() => handleDropdownToggle(item)}
-                    className="hover:bg-[#4F46E5] hover:text-white text-black px-3 py-2 rounded-md text-sm font-medium flex items-center"
+                    className="hover:bg-[#4F46E5] hover:text-white text-black px-3 py-2 rounded-md text-sm font-semibold flex items-center"
                   >
                     {item}
-                    <svg
+                    <svg 
                       className="ml-1 h-4 w-4"
                       fill="none"
                       stroke="currentColor"
@@ -113,15 +66,31 @@ const Headers = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  {dropdownOpen === item && menuItems[item].length > 0 && (
-                    <div className="absolute mt-2 w-48 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5">
-                      <div className="py-1">
-                        {menuItems[item].map((subItem, index) => (
-                          <a key={index} href={subItem.link} className="block px-4 py-2 text-sm text-black hover:bg-[#EFF6FF]">
-                            {subItem.name}
-                          </a>
-                        ))}
-                      </div>
+                  {dropdownOpen === item && menuItems[item] && (
+                    <div className="absolute mt-2 w-full md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 md:divide-y-0 md:divide-x md:grid md:grid-cols-2 md:gap-x-4">
+                      {menuItems[item].map((subItem, index) => (
+                        <div key={index} className="p-4">
+                          <p className="text-lg font-medium text-gray-900">{subItem.heading}</p>
+                          {subItem.subheadings.map((subheading, idx) => (
+                            <div key={idx} className="mt-2">
+                              <p className="text-sm font-medium text-gray-500">{subheading.name}</p>
+                              {subheading.buttons && (
+                                <div className="mt-1">
+                                  {subheading.buttons.map((button, btnIdx) => (
+                                    <a
+                                      key={btnIdx}
+                                      href={button.link}
+                                      className="block mt-1 text-sm font-medium text-[#4F46E5] hover:text-[#4F46E5]"
+                                    >
+                                      {button.name}
+                                    </a>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          ))}
+                        </div>
+                      ))}
                     </div>
                   )}
                 </div>
@@ -150,12 +119,30 @@ const Headers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {dropdownOpen === item && menuItems[item].length > 0 && (
-                <div className="mt-2 space-y-1">
+              {dropdownOpen === item && menuItems[item] && (
+                <div className="mt-2 space-y-2">
                   {menuItems[item].map((subItem, index) => (
-                    <a key={index} href={subItem.link} className="block px-4 py-2 text-base text-black hover:bg-[#EFF6FF]">
-                      {subItem.name}
-                    </a>
+                    <div key={index}>
+                      <p className="text-lg font-medium text-gray-900">{subItem.heading}</p>
+                      {subItem.subheadings.map((subheading, idx) => (
+                        <div key={idx} className="mt-2">
+                          <p className="text-sm font-medium text-gray-500">{subheading.name}</p>
+                          {subheading.buttons && (
+                            <div className="mt-1">
+                              {subheading.buttons.map((button, btnIdx) => (
+                                <a
+                                  key={btnIdx}
+                                  href={button.link}
+                                  className="block mt-1 text-sm font-medium text-[#4F46E5] hover:text-[#4F46E5]"
+                                >
+                                  {button.name}
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </div>
                   ))}
                 </div>
               )}
