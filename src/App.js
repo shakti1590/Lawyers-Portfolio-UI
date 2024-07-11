@@ -24,6 +24,7 @@ const App = () => {
           <Route path="/careers" element={<JobOpeningSection/>} />
           <Route path="/contact-us" element={<Contactpage/>} />
           <Route path="/privacy-policy" element={<Privacypolicy/>} />
+          <Route path="/contact-us" element={<Contactpage/>} />
         </Routes>
       </Router>
       <Footer />
