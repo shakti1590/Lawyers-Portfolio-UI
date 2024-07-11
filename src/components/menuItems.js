@@ -1,6 +1,5 @@
 const menuItems = {
   Business: [
-    [
       {
         heading: "Register your business",
         link: "/register-business",
@@ -28,8 +27,6 @@ const menuItems = {
           { name: "Section 8 Company", link: "/section-8-company" },
         ],
       },
-    ],
-    [
       {
         heading: "Run your business",
         link: "/business-protection",
@@ -63,8 +60,8 @@ const menuItems = {
         heading: "Business Attorneys",
         link: "/business-attorneys",
       },
-    ],
-    [
+    
+    
       {
         heading: "Legal Compliance and Regulations",
         link: "/legal-compliance",
@@ -99,8 +96,8 @@ const menuItems = {
           { name: "FSSAI", link: "/fssai" },
         ],
       },
-    ],
-    [
+    
+    
       {
         heading: "Protect your business",
         link: "/protect-business",
@@ -139,7 +136,7 @@ const menuItems = {
           { name: "Tax Audit", link: "/tax-audit" },
         ],
       },
-    ],
+    
     {
       button: {
         text: "Help Me Decide",
@@ -148,7 +145,7 @@ const menuItems = {
     },
   ],
   Personal: [
-    [
+    
       {
         heading: "Estate plans",
         link: "/estate-plans",
@@ -157,8 +154,8 @@ const menuItems = {
           { name: "Trust", link: "/trust" },
         ],
       },
-    ],
-    [
+    
+    
       {
         heading: "Family",
         link: "/family",
@@ -168,8 +165,7 @@ const menuItems = {
           { name: "Personal attorneys", link: "/personal-attorneys" },
         ],
       },
-    ],
-    [
+    
       {
         heading: "Real Estate",
         link: "/real-estate",
@@ -178,7 +174,7 @@ const menuItems = {
           { name: "Property deed transfer", link: "/property-deed-transfer" },
         ],
       },
-    ],
+    
     {
       button: {
         text: "Help Me Decide",
@@ -187,7 +183,7 @@ const menuItems = {
     },
   ],
   Casework: [
-    [
+    
       {
         heading: "Our Services",
         link: "/our-services",
@@ -210,8 +206,8 @@ const menuItems = {
           { name: "High Court", link: "/high-court" },
         ],
       },
-    ],
-    [
+    
+    
       {
         heading: "Additional business services",
         link: "/additional-business-services",
@@ -228,8 +224,7 @@ const menuItems = {
           { name: "Statutory Audit", link: "/statutory-audit" },
         ],
       },
-    ],
-    [
+    
       {
         heading: "Legal forms and agreements",
         link: "/legal-forms",
@@ -251,7 +246,7 @@ const menuItems = {
           },
         ],
       },
-    ],
+    
   ],
   Expertise: [
     {

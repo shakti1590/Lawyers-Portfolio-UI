@@ -66,15 +66,19 @@ const Headers = () => {
                       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                     </svg>
                   </button>
-                  {dropdownOpen === item && menuItems[item] && (
-                    <div className="absolute mt-2 w-full md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 md:divide-y-0 md:divide-x md:grid md:grid-cols-2 md:gap-x-4">
+                  {dropdownOpen === item && Array.isArray(menuItems[item]) && (
+                    <div className="absolute z-10 mt-2 w-full md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 md:divide-y-0 md:divide-x md:grid md:grid-cols-2 md:gap-x-4">
                       {menuItems[item].map((subItem, index) => (
                         <div key={index} className="p-4">
-                          <p className="text-lg font-medium text-gray-900">{subItem.heading}</p>
-                          {subItem.subheadings.map((subheading, idx) => (
-                            <div key={idx} className="mt-2">
-                              <p className="text-sm font-medium text-gray-500">{subheading.name}</p>
-                              {subheading.buttons && (
+                          <a href={subItem.link} className="text-lg font-medium text-gray-900">{subItem.heading}</a>
+                          {Array.isArray(subItem.items)&&  (
+                            <div className="mt-2">
+                              {subItem.items.map((it,idx)=>(
+                              <a key={idx} href={it.link} className="block mt-1 text-sm font-medium">
+                                {it.name}
+                              </a>
+                              ))}
+                              {/* {subheading.buttons && (
                                 <div className="mt-1">
                                   {subheading.buttons.map((button, btnIdx) => (
                                     <a
@@ -86,9 +90,9 @@ const Headers = () => {
                                     </a>
                                   ))}
                                 </div>
-                              )}
+                              )} */}
                             </div>
-                          ))}
+                          )}
                         </div>
                       ))}
                     </div>
@@ -119,29 +123,20 @@ const Headers = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                 </svg>
               </button>
-              {dropdownOpen === item && menuItems[item] && (
+              {dropdownOpen === item && Array.isArray(menuItems[item]) && (
                 <div className="mt-2 space-y-2">
                   {menuItems[item].map((subItem, index) => (
                     <div key={index}>
-                      <p className="text-lg font-medium text-gray-900">{subItem.heading}</p>
-                      {subItem.subheadings.map((subheading, idx) => (
-                        <div key={idx} className="mt-2">
-                          <p className="text-sm font-medium text-gray-500">{subheading.name}</p>
-                          {subheading.buttons && (
-                            <div className="mt-1">
-                              {subheading.buttons.map((button, btnIdx) => (
-                                <a
-                                  key={btnIdx}
-                                  href={button.link}
-                                  className="block mt-1 text-sm font-medium text-[#4F46E5] hover:text-[#4F46E5]"
-                                >
-                                  {button.name}
-                                </a>
-                              ))}
-                            </div>
-                          )}
+                      <a href={subItem.link} className="text-lg font-medium text-gray-900">{subItem.heading}</a>
+                      {Array.isArray(subItem.items) && (
+                        <div className="mt-2">
+                          {subItem.items.map((it, idx) => (
+                            <a key={idx} href={it.link} className="block mt-1 text-sm font-medium">
+                              {it.name}
+                            </a>
+                          ))}
                         </div>
-                      ))}
+                      )}
                     </div>
                   ))}
                 </div>
