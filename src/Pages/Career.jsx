@@ -17,7 +17,7 @@ const JobOpeningSection = () => {
             company that values innovation, integrity, and customer
             satisfaction, we’d love to hear from you.
           </p>
-          <button className="bg-blue-600 text-white text-lg font-bold py-2 px-4 rounded-full">
+          <button className="bg-[#4F46E5] text-white text-lg font-bold py-2 px-4 rounded-full">
             See current openings
           </button>
         </div>
@@ -56,7 +56,7 @@ const JobOpeningSection = () => {
           ].map((role) => (
             <button
               key={role}
-              className="bg-blue-500 text-white font-bold py-2 px-4 rounded-lg"
+              className="bg-[#4F46E5] text-white font-bold py-2 px-4 rounded-lg"
             >
               {role}
             </button>
@@ -69,7 +69,7 @@ const JobOpeningSection = () => {
           you are passionate about working at Green House Association and how
           your skills and experience align with our needs.
         </p>
-        <button className="bg-blue-600 text-white text-lg font-bold py-2 px-4 rounded-full mb-8">
+        <button className="bg-[#4F46E5] text-white text-lg font-bold py-2 px-4 rounded-full mb-8">
           Apply Now
         </button>
         <h3 className="text-2xl font-bold text-black mb-2">
@@ -161,7 +161,7 @@ const JobOpeningSection = () => {
             </div>
             <button
               type="submit"
-              className="bg-blue-600 text-white text-lg font-bold py-2 px-4 rounded-full "
+              className="bg-[#4F46E5] text-white text-lg font-bold py-2 px-4 rounded-full "
             >
               Apply Now
             </button>
