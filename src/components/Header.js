@@ -106,12 +106,12 @@ const Headers = () => {
                             </div>
                         </div> */}
 
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 relative">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="relative flex items-center justify-between h-16">
+          <div className="flex items-center justify-between h-16">
             <div className="hidden md:flex space-x-4">
               {Object.keys(menuItems).map((item) => (
-                <div key={item} className="relative">
+                <div key={item}>
                   <button
                     onClick={() => handleDropdownToggle(item)}
                     className="hover:bg-[#4F46E5] hover:text-white text-black px-3 py-2 rounded-md text-sm font-semibold flex items-center"
@@ -134,7 +134,7 @@ const Headers = () => {
                   </button>
                   {dropdownOpen === item && Array.isArray(menuItems[item]) && (
                     <div
-                      className={`absolute z-10 mt-2 max-h-[750px] w-screen inset-x-0 rounded-md shadow-lg bg-white transform scale-100 opacity-100 md:block `}
+                      className={`absolute z-10 max-h-[750px] w-full inset-x-0 rounded-md shadow-lg bg-white transform scale-100 opacity-100 md:block `}
                     >
                       <div className="flex justify-evenly m-4">
                         {item === "Business" ? (
