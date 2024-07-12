@@ -10,7 +10,7 @@ const Headers = () => {
   const handleDropdownToggle = (menu) => {
     setDropdownOpen(dropdownOpen === menu ? null : menu);
   };
-  console.log(menuItems);
+  // console.log(menuItems);
 
   return (
     <nav className="bg-white shadow-md">
