@@ -18,11 +18,8 @@ const Headers = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img
-                className="h-12 w-auto hidden md:block"
-                src={Logo}
-                alt="Logo"
-              />
+              <img className="h-8 w-auto md:hidden" src={Logo} alt="Mobile Logo" />
+              <img className="h-12 w-auto hidden md:block" src={Logo} alt="Logo" />
             </div>
           </div>
           <div className="flex space-x-4 items-center">
