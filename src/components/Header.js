@@ -1,7 +1,7 @@
-import React, { useState } from 'react';
-import { MenuIcon, XIcon } from '@heroicons/react/outline';
-import Logo from '../assets/img/gha.png';
-import menuItems from './menuItems';
+import React, { useState } from "react";
+import { MenuIcon, XIcon } from "@heroicons/react/outline";
+import Logo from "../assets/img/gha.png";
+import menuItems from "./menuItems";
 
 const Headers = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ const Headers = () => {
   const handleDropdownToggle = (menu) => {
     setDropdownOpen(dropdownOpen === menu ? null : menu);
   };
-  console.log(menuItems)
+  console.log(menuItems);
 
   return (
     <nav className="bg-white shadow-md">
@@ -18,14 +18,34 @@ const Headers = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <div className="flex-shrink-0">
-              <img className="h-12 w-auto hidden md:block" src={Logo} alt="Logo" />
+              <img
+                className="h-12 w-auto hidden md:block"
+                src={Logo}
+                alt="Logo"
+              />
             </div>
           </div>
           <div className="flex space-x-4 items-center">
-            <a href="#" className="flex items-center text-black px-3 py-2 rounded-md text-sm font-medium hidden md:flex">
-              <svg className="h-6 w-6 mr-2" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 891.024 891.024" xmlSpace="preserve">
+            <a
+              href="#"
+              className="flex items-center text-black px-3 py-2 rounded-md text-sm font-medium hidden md:flex"
+            >
+              <svg
+                className="h-6 w-6 mr-2"
+                fill="#000000"
+                version="1.1"
+                id="Capa_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 891.024 891.024"
+                xmlSpace="preserve"
+              >
                 <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-                <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                ></g>
                 <g id="SVGRepo_iconCarrier">
                   <g>
                     <path d="M2.8,180.875c46.6,134,144.7,286.2,282.9,424.399c138.2,138.2,290.4,236.301,424.4,282.9c18.2,6.3,38.3,1.8,52-11.8 l92.7-92.7l21.6-21.6c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.4c-19.5-19.5-51.2-19.5-70.7,0l-38.899,38.9 c-20.2,20.2-52.4,22.2-75,4.6c-44.7-34.8-89-73.899-131.9-116.8c-42.9-42.9-82-87.2-116.8-131.9c-17.601-22.6-15.601-54.7,4.6-75 l38.9-38.9c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.5c-19.5-19.5-51.2-19.5-70.7,0l-21.6,21.6l-92.7,92.7 C1,142.575-3.5,162.675,2.8,180.875z"></path>
@@ -34,12 +54,21 @@ const Headers = () => {
               </svg>
               +91 9473196196
             </a>
-            <button className="ml-3 bg-black hover:bg-[#4F46E5] hidden md:block text-white px-3 py-2 rounded-full text-sm font-medium">Sign in</button>
+            <button className="ml-3 bg-black hover:bg-[#4F46E5] hidden md:block text-white px-3 py-2 rounded-full text-sm font-medium">
+              Sign in
+            </button>
           </div>
           <div className="-mr-2 flex md:hidden">
-            <button onClick={() => setIsOpen(!isOpen)} className="inline-flex items-center justify-center p-2 rounded-md text-white bg-[#4F46E5] hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white">
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-white bg-[#4F46E5] hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-gray-800 focus:ring-white"
+            >
               <span className="sr-only">Open main menu</span>
-              {isOpen ? <XIcon className="block h-6 w-6" /> : <MenuIcon className="block h-6 w-6" />}
+              {isOpen ? (
+                <XIcon className="block h-6 w-6" />
+              ) : (
+                <MenuIcon className="block h-6 w-6" />
+              )}
             </button>
           </div>
         </div>
@@ -47,7 +76,7 @@ const Headers = () => {
 
       <div className="bg-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex items-center justify-between h-16">
+          <div className="relative flex items-center justify-between h-16">
             <div className="hidden md:flex space-x-4">
               {Object.keys(menuItems).map((item) => (
                 <div key={item} className="relative">
@@ -56,45 +85,197 @@ const Headers = () => {
                     className="hover:bg-[#4F46E5] hover:text-white text-black px-3 py-2 rounded-md text-sm font-semibold flex items-center"
                   >
                     {item}
-                    <svg 
+                    <svg
                       className="ml-1 h-4 w-4"
                       fill="none"
                       stroke="currentColor"
                       viewBox="0 0 24 24"
                       xmlns="http://www.w3.org/2000/svg"
                     >
-                      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth="2"
+                        d="M19 9l-7 7-7-7"
+                      />
                     </svg>
                   </button>
                   {dropdownOpen === item && Array.isArray(menuItems[item]) && (
-                    <div className="absolute z-10 mt-2 w-full md:w-96 rounded-md shadow-lg bg-white ring-1 ring-black ring-opacity-5 divide-y divide-gray-200 md:divide-y-0 md:divide-x md:grid md:grid-cols-2 md:gap-x-4">
-                      {menuItems[item].map((subItem, index) => (
-                        <div key={index} className="p-4">
-                          <a href={subItem.link} className="text-lg font-medium text-gray-900">{subItem.heading}</a>
-                          {Array.isArray(subItem.items)&&  (
-                            <div className="mt-2">
-                              {subItem.items.map((it,idx)=>(
-                              <a key={idx} href={it.link} className="block mt-1 text-sm font-medium">
-                                {it.name}
-                              </a>
-                              ))}
-                              {/* {subheading.buttons && (
-                                <div className="mt-1">
-                                  {subheading.buttons.map((button, btnIdx) => (
+                    <div
+                      className={`absolute z-10 mt-2 max-h-[750px] w-screen inset-x-0 rounded-md shadow-lg bg-white transform scale-100 opacity-100 md:block `}
+                    >
+                      <div className="flex justify-evenly m-4">
+                        {item === "Business" ? (
+                          <>
+                            <div className="p-4">
+                              {menuItems[item]
+                                .slice(0, 4)
+                                .map((subItem, index) => (
+                                  <div key={index} className="mb-4">
                                     <a
-                                      key={btnIdx}
-                                      href={button.link}
-                                      className="block mt-1 text-sm font-medium text-[#4F46E5] hover:text-[#4F46E5]"
+                                      href={subItem.link}
+                                      className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
                                     >
-                                      {button.name}
+                                      <h2 className="text-lg font-semibold">
+                                        {subItem.heading}
+                                      </h2>
+                                    </a>
+                                    {Array.isArray(subItem.items) && (
+                                      <div className="mt-2">
+                                        {subItem.items.map((it, idx) => (
+                                          <a
+                                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                            key={idx}
+                                            href={it.link}
+                                          >
+                                            {it.name}
+                                          </a>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                              <div className="pt-10 last:pb-8">
+                                <a
+                                  href="/help-me-decide"
+                                  className="inline-flex justify-center items-center rounded-full bg-transparent text-black border-black hover:bg-black hover:text-white ui-focus-visible:bg-default-response ui-focus-visible:border-default-response ui-focus-visible:text-white active:bg-muted active:border-muted active:text-white focus:outline-0 ui-focus-visible:outline-1 border-4 font-semibold py-2 px-6"
+                                  title="Help me decide"
+                                  rel="nofollow"
+                                >
+                                  <span>Help me decide</span>
+                                
+                                <svg
+                                  viewBox="0 0 15 15"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                  className="inline-block h-4 pl-2"
+                                >
+                                  <path
+                                    d="m7.926 13 5.5-5.5-5.5-5.5M1.218 7.5h12.208"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                  ></path>
+                                </svg>
+                                </a>
+                              </div>
+                            </div>
+                            <div className="p-4">
+                              {menuItems[item]
+                                .slice(4, 7)
+                                .map((subItem, index) => (
+                                  <div key={index} className="mb-4">
+                                    <a
+                                      href={subItem.link}
+                                      className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                                    >
+                                      <h2 className="text-lg font-semibold">
+                                        {subItem.heading}
+                                      </h2>
+                                    </a>
+                                    {Array.isArray(subItem.items) && (
+                                      <div className="mt-2">
+                                        {subItem.items.map((it, idx) => (
+                                          <a
+                                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                            key={idx}
+                                            href={it.link}
+                                          >
+                                            {it.name}
+                                          </a>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                            </div>
+                            <div className="p-4">
+                              {menuItems[item]
+                                .slice(7, 11)
+                                .map((subItem, index) => (
+                                  <div key={index} className="mb-4">
+                                    <a
+                                      href={subItem.link}
+                                      className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                                    >
+                                      <h2 className="text-lg font-semibold">
+                                        {subItem.heading}
+                                      </h2>
+                                    </a>
+                                    {Array.isArray(subItem.items) && (
+                                      <div className="mt-2">
+                                        {subItem.items.map((it, idx) => (
+                                          <a
+                                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                            key={idx}
+                                            href={it.link}
+                                          >
+                                            {it.name}
+                                          </a>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                            </div>
+                            <div className="p-4">
+                              {menuItems[item]
+                                .slice(11)
+                                .map((subItem, index) => (
+                                  <div key={index} className="mb-4">
+                                    <a
+                                      href={subItem.link}
+                                      className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                                    >
+                                      <h2 className="text-lg font-semibold">
+                                        {subItem.heading}
+                                      </h2>
+                                    </a>
+                                    {Array.isArray(subItem.items) && (
+                                      <div className="mt-2">
+                                        {subItem.items.map((it, idx) => (
+                                          <a
+                                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                            key={idx}
+                                            href={it.link}
+                                          >
+                                            {it.name}
+                                          </a>
+                                        ))}
+                                      </div>
+                                    )}
+                                  </div>
+                                ))}
+                            </div>
+                          </>
+                        ) : (
+                          menuItems[item].map((subItem, index) => (
+                            <div key={index} className="p-4">
+                              <a
+                                href={subItem.link}
+                                className="text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2"
+                              >
+                                <h2 className="text-lg font-semibold">
+                                  {subItem.heading}
+                                </h2>
+                              </a>
+                              {Array.isArray(subItem.items) && (
+                                <div className="mt-2">
+                                  {subItem.items.map((it, idx) => (
+                                    <a
+                                      className="text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline"
+                                      key={idx}
+                                      href={it.link}
+                                    >
+                                      {it.name}
                                     </a>
                                   ))}
                                 </div>
-                              )} */}
+                              )}
                             </div>
-                          )}
-                        </div>
-                      ))}
+                          ))
+                        )}
+                      </div>
                     </div>
                   )}
                 </div>
@@ -104,7 +285,7 @@ const Headers = () => {
         </div>
       </div>
 
-      <div className={`md:hidden ${isOpen ? 'block' : 'hidden'}`}>
+      <div className={`md:hidden ${isOpen ? "block" : "hidden"}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
           {Object.keys(menuItems).map((item) => (
             <div key={item} className="relative">
@@ -120,18 +301,32 @@ const Headers = () => {
                   viewBox="0 0 24 24"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="2"
+                    d="M19 9l-7 7-7-7"
+                  />
                 </svg>
               </button>
               {dropdownOpen === item && Array.isArray(menuItems[item]) && (
                 <div className="mt-2 space-y-2">
                   {menuItems[item].map((subItem, index) => (
                     <div key={index}>
-                      <a href={subItem.link} className="text-lg font-medium text-gray-900">{subItem.heading}</a>
+                      <a
+                        href={subItem.link}
+                        className="text-lg font-medium text-gray-900"
+                      >
+                        {subItem.heading}
+                      </a>
                       {Array.isArray(subItem.items) && (
                         <div className="mt-2">
                           {subItem.items.map((it, idx) => (
-                            <a key={idx} href={it.link} className="block mt-1 text-sm font-medium">
+                            <a
+                              key={idx}
+                              href={it.link}
+                              className="block mt-1 text-sm font-medium"
+                            >
                               {it.name}
                             </a>
                           ))}
@@ -143,10 +338,26 @@ const Headers = () => {
               )}
             </div>
           ))}
-          <a href="#" className="flex items-center hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium">
-            <svg className="h-6 w-6 mr-2" fill="#000000" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" viewBox="0 0 891.024 891.024" xmlSpace="preserve">
+          <a
+            href="#"
+            className="flex items-center hover:text-gray-700 block px-3 py-2 rounded-md text-base font-medium"
+          >
+            <svg
+              className="h-6 w-6 mr-2"
+              fill="#000000"
+              version="1.1"
+              id="Capa_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlnsXlink="http://www.w3.org/1999/xlink"
+              viewBox="0 0 891.024 891.024"
+              xmlSpace="preserve"
+            >
               <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
-              <g id="SVGRepo_tracerCarrier" strokeLinecap="round" strokeLinejoin="round"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              ></g>
               <g id="SVGRepo_iconCarrier">
                 <g>
                   <path d="M2.8,180.875c46.6,134,144.7,286.2,282.9,424.399c138.2,138.2,290.4,236.301,424.4,282.9c18.2,6.3,38.3,1.8,52-11.8 l92.7-92.7l21.6-21.6c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.4c-19.5-19.5-51.2-19.5-70.7,0l-38.899,38.9 c-20.2,20.2-52.4,22.2-75,4.6c-44.7-34.8-89-73.899-131.9-116.8c-42.9-42.9-82-87.2-116.8-131.9c-17.601-22.6-15.601-54.7,4.6-75 l38.9-38.9c19.5-19.5,19.5-51.2,0-70.7l-143.5-143.5c-19.5-19.5-51.2-19.5-70.7,0l-21.6,21.6l-92.7,92.7 C1,142.575-3.5,162.675,2.8,180.875z"></path>
@@ -155,7 +366,9 @@ const Headers = () => {
             </svg>
             +91 9473196196
           </a>
-          <button className="bg-black hover:bg-[#4F46E5] text-white w-full py-2 rounded-full text-base font-medium">Sign in</button>
+          <button className="bg-black hover:bg-[#4F46E5] text-white w-full py-2 rounded-full text-base font-medium">
+            Sign in
+          </button>
         </div>
       </div>
     </nav>
@@ -163,7 +376,6 @@ const Headers = () => {
 };
 
 export default Headers;
-
 
 // import React, { useEffect, useState } from 'react';
 
@@ -208,7 +420,6 @@ export default Headers;
 // };
 
 // export default Header;
-
 
 // import React, { useState } from 'react';
 // import { MenuIcon, XIcon } from '@heroicons/react/outline';

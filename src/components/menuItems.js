@@ -174,13 +174,6 @@ const menuItems = {
           { name: "Property deed transfer", link: "/property-deed-transfer" },
         ],
       },
-    
-    {
-      button: {
-        text: "Help Me Decide",
-        link: "/help-me-decide",
-      },
-    },
   ],
   Casework: [
     
