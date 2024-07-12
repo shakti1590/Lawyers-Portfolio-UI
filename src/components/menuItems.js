@@ -136,13 +136,6 @@ const menuItems = {
           { name: "Tax Audit", link: "/tax-audit" },
         ],
       },
-    
-    {
-      button: {
-        text: "Help Me Decide",
-        link: "/help-me-decide",
-      },
-    },
   ],
   Personal: [
     
@@ -201,10 +194,10 @@ const menuItems = {
       },
     
     
-      {
-        heading: "Additional business services",
-        link: "/additional-business-services",
-      },
+      // {
+      //   heading: "Additional business services",
+      //   link: "/additional-business-services",
+      // },
       {
         heading: "Annual Report",
         link: "/annual-report",
