@@ -488,11 +488,11 @@ const menuItems = {
       link: "/industry-reports",
       items: [
         {
-          name: "2023 Legal Trends Report New",
-          link: "/2023-legal-trends-report",
+          name: "Legal Trends Report",
+          link: "/legal-trends-report",
         },
         {
-          name: "Webinar: Key Insights from the 2023 Legal Trends Report",
+          name: "Key Insights from Legal Trends Report ",
           link: "/webinar-insights",
         },
         {
