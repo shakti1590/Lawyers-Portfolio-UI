@@ -269,6 +269,160 @@ const Headers = () => {
                         ))}
                       </div>
                     </>
+                  ) : item === "Support" ? (
+                    <>
+                      <div className="p-4">
+                        {menuItems[item].slice(0,1).map((subItem, index) => (
+                          <div key={index} className="mb-4">
+                            <a
+                              href={subItem.link}
+                              className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                            >
+                              <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                            </a>
+                            {Array.isArray(subItem.items) && (
+                              <div className="mt-2">
+                                {subItem.items.map((it, idx) => (
+                                  <a
+                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    key={idx}
+                                    href={it.link}
+                                  >
+                                    {it.name}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                      <div className="p-4">
+                        {menuItems[item].slice(1,2).map((subItem, index) => (
+                          <div key={index} className="mb-4">
+                            <a
+                              href={subItem.link}
+                              className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                            >
+                              <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                            </a>
+                            {Array.isArray(subItem.items) && (
+                              <div className="mt-2">
+                                {subItem.items.map((it, idx) => (
+                                  <a
+                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    key={idx}
+                                    href={it.link}
+                                  >
+                                    {it.name}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                      <div className="p-4">
+                        {menuItems[item].slice(2, 4).map((subItem, index) => (
+                          <div key={index} className="mb-4">
+                            <a
+                              href={subItem.link}
+                              className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                            >
+                              <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                            </a>
+                            {Array.isArray(subItem.items) && (
+                              <div className="mt-2">
+                                {subItem.items.map((it, idx) => (
+                                  <a
+                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    key={idx}
+                                    href={it.link}
+                                  >
+                                    {it.name}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                      {menuItems[item].slice(4).map((subItem, index) => (
+                        <div className="p-4" key={index}>
+                          <a
+                            href={subItem.link}
+                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                          >
+                            <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                          </a>
+                          {Array.isArray(subItem.items) && (
+                            <div className="mt-2">
+                              {subItem.items.map((it, idx) => (
+                                <a
+                                  className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                  key={idx}
+                                  href={it.link}
+                                >
+                                  {it.name}
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </>
+                                    
+                  ) : item === "Resources" ? (
+                    <>
+                      <div className="p-4">
+                        {menuItems[item].slice(0, 2).map((subItem, index) => (
+                          <div key={index} className="mb-4">
+                            <a
+                              href={subItem.link}
+                              className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                            >
+                              <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                            </a>
+                            {Array.isArray(subItem.items) && (
+                              <div className="mt-2">
+                                {subItem.items.map((it, idx) => (
+                                  <a
+                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    key={idx}
+                                    href={it.link}
+                                  >
+                                    {it.name}
+                                  </a>
+                                ))}
+                              </div>
+                            )}
+                          </div>
+                        ))}
+                      </div>
+                      {menuItems[item].slice(2).map((subItem, index) => (
+                        <div className="p-4" key={index}>
+                          <a
+                            href={subItem.link}
+                            className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block my-2 py-2 `}
+                          >
+                            <h2 className="text-lg font-semibold">{subItem.heading}</h2>
+                          </a>
+                          {Array.isArray(subItem.items) && (
+                            <div className="mt-2">
+                              {subItem.items.map((it, idx) => (
+                                <a
+                                  className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                  key={idx}
+                                  href={it.link}
+                                >
+                                  {it.name}
+                                </a>
+                              ))}
+                            </div>
+                          )}
+                        </div>
+                      ))}
+                    </>
+                              
                   ) : (
                     <>
                       {menuItems[item].map((subItem, index) => (

@@ -405,6 +405,18 @@ const menuItems = {
       
     },
     {
+      heading: "Manage Documents",
+      link: "/manage-documents",
+      items: [
+        {
+          name: "Advanced Document Automation",
+          link: "/advanced-document-automation",
+        },
+        { name: "Court Forms", link: "/court-forms" },
+        { name: "Template B", link: "/template-b" },
+      ],
+    },
+    {
       heading: "Engage Clients",
       link: "/engage-clients",
       items: [
@@ -427,18 +439,7 @@ const menuItems = {
         },
       ],
     },
-    {
-      heading: "Manage Documents",
-      link: "/manage-documents",
-      items: [
-        {
-          name: "Advanced Document Automation",
-          link: "/advanced-document-automation",
-        },
-        { name: "Court Forms", link: "/court-forms" },
-        { name: "Template B", link: "/template-b" },
-      ],
-    },
+    
   ],
   Resources: [
     {
@@ -451,6 +452,19 @@ const menuItems = {
         { name: "News & Press", link: "/news-press" },
       ],
       
+    },
+    {
+      heading: "Events",
+      link: "/events",
+      items: [
+        { name: "All Upcoming Events", link: "/all-upcoming-events" },
+        { name: "Cloud Conference", link: "/cloud-conference" },
+        {
+          name: "Continuing Legal Education",
+          link: "/continuing-legal-education",
+        },
+        { name: "On-Demand Webinars", link: "/on-demand-webinars" },
+      ],
     },
     {
       heading: "Topics",
@@ -518,19 +532,7 @@ const menuItems = {
         },
       ],
     },
-    {
-      heading: "Events",
-      link: "/events",
-      items: [
-        { name: "All Upcoming Events", link: "/all-upcoming-events" },
-        { name: "Cloud Conference", link: "/cloud-conference" },
-        {
-          name: "Continuing Legal Education",
-          link: "/continuing-legal-education",
-        },
-        { name: "On-Demand Webinars", link: "/on-demand-webinars" },
-      ],
-    },
+    
   ],
   Careers: [
     {
