@@ -152,7 +152,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -202,7 +202,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -229,7 +229,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted  hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -256,7 +256,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -284,7 +284,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -309,7 +309,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -334,7 +334,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -358,7 +358,7 @@ const Headers = () => {
                             <div className="mt-2">
                               {subItem.items.map((it, idx) => (
                                 <a
-                                  className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                  className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                   key={idx}
                                   href={it.link}
                                 >
@@ -386,7 +386,7 @@ const Headers = () => {
                               <div className="mt-2">
                                 {subItem.items.map((it, idx) => (
                                   <a
-                                    className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                    className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                     key={idx}
                                     href={it.link}
                                   >
@@ -410,7 +410,7 @@ const Headers = () => {
                             <div className="mt-2">
                               {subItem.items.map((it, idx) => (
                                 <a
-                                  className={`text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
+                                  className={`text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline `}
                                   key={idx}
                                   href={it.link}
                                 >
@@ -439,7 +439,7 @@ const Headers = () => {
                             <div className="mt-2">
                               {subItem.items.map((it, idx) => (
                                 <a
-                                  className="text-black hover:text-muted ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline"
+                                  className="text-black hover:text-muted hover:text-[#4F46E5] ui-focus-visible:text-muted active:text-default-response transform transition ease-in-out duration-200 focus:outline-0 ui-focus-visible:outline-1 block py-1 hover:underline"
                                   key={idx}
                                   href={it.link}
                                 >
