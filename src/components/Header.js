@@ -162,7 +162,7 @@ const Headers = () => {
                             )}
                           </div>
                         ))}
-                        <div className="pt-10 last:pb-8">
+                        <div className="pt-24 last:pb-8">
                           <a
                             href="/help-me-decide"
                             className="inline-flex justify-center items-center rounded-full bg-transparent text-black border-black hover:border-[#4F46E5] hover:bg-[#4F46E5] hover:text-white ui-focus-visible:bg-default-response ui-focus-visible:border-default-response ui-focus-visible:text-white active:bg-muted active:border-muted active:text-white focus:outline-0 ui-focus-visible:outline-1 border-4 font-semibold py-2 px-6"

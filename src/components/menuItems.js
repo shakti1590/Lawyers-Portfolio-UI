@@ -384,10 +384,10 @@ const menuItems = {
         { name: "Document Management", link: "/document-management" },
         { name: "Firm Communications", link: "/firm-communications" },
         { name: "Legal Aid", link: "/legal-aid" },
-        {
-          name: "Medical Records & Settlement Management New",
-          link: "/medical-records-settlement",
-        },
+        // {
+        //   name: "Medical Records & Settlement Management New",
+        //   link: "/medical-records-settlement",
+        // },
         { name: "Mobile App for Firms", link: "/mobile-app" },
         { name: "Task Management", link: "/task-management" },
       ],
