@@ -15,7 +15,7 @@ const menuItems = {
           { name: "Partnership", link: "/partnership" },
           { name: "Limited Liability Partnership (LLP)", link: "/llp" },
           { name: "Private Limited Company", link: "/private-limited-company" },
-          { name: "Google's Local Services Ads", link: "/partnership" },
+          { name: "Public Limited Company", link: "/public-limited-company" },
         ],
       },
       {
@@ -234,62 +234,7 @@ const menuItems = {
       },
     
   ],
-  Expertise: [
-    {
-      heading: "Corporate and Business Law",
-      link: "/corp-business-law",
-      items: [
-        { name: "Company Formation and Structure", link: "/company-formation" },
-        { name: "Corporate Governance", link: "/corporate-governance" },
-        { name: "Mergers and Acquisitions", link: "/mergers-acquisitions" },
-        { name: "Contract Law and Drafting", link: "/contract-law-drafting" },
-        {
-          name: "Risk Management and Compliance",
-          link: "/risk-management-compliance",
-        },
-      ],
-    },
-    {
-      heading: "Litigation and Dispute Resolution",
-      link: "/litigation-dispute",
-      items: [
-        { name: "Fundamentals of Civil Litigation", link: "/civil-litigation" },
-        { name: "Drafting and Filing Pleadings", link: "/drafting-pleadings" },
-        { name: "Discovery Process", link: "/discovery-process" },
-        { name: "Alternative Dispute Resolution (ADR)", link: "/adr" },
-        { name: "Trial Preparation and Strategy", link: "/trial-preparation" },
-        {
-          name: "Litigation Ethics and Professional Responsibility",
-          link: "/litigation-ethics",
-        },
-        { name: "Post-Trial Motions and Appeals", link: "/post-trial-appeals" },
-      ],
-    },
-    {
-      heading: "Employment Law",
-      link: "/employment-law",
-      items: [
-        {
-          name: "Overview of Employment Law",
-          link: "/employment-law-overview",
-        },
-        {
-          name: "Employment Contracts and Agreements",
-          link: "/employment-contracts",
-        },
-        {
-          name: "Workplace Policies and Compliance",
-          link: "/workplace-policies",
-        },
-        { name: "Handling Employment Disputes", link: "/employment-disputes" },
-        {
-          name: "Discrimination and Harassment",
-          link: "/discrimination-harassment",
-        },
-        { name: "Wage and Hour Law", link: "/wage-hour-law" },
-        { name: "Termination and Severance", link: "/termination-severance" },
-      ],
-    },
+  Rights:[
     {
       heading: "Intellectual Property (IP)",
       link: "/intellectual-property",
@@ -304,25 +249,6 @@ const menuItems = {
         { name: "Trade Secrets", link: "/trade-secrets" },
         { name: "IP Licensing and Commercialization", link: "/ip-licensing" },
         { name: "IP Enforcement and Litigation", link: "/ip-enforcement" },
-      ],
-    },
-    {
-      heading: "Real Estate and Property Law",
-      link: "/real-estate-law",
-      items: [
-        {
-          name: "Fundamentals of Real Estate Law",
-          link: "/real-estate-fundamentals",
-        },
-        { name: "Property Transactions", link: "/property-transactions" },
-        { name: "Leasing and Tenancy Agreements", link: "/leasing-tenancy" },
-        { name: "Real Estate Financing", link: "/real-estate-financing" },
-        { name: "Land Use and Zoning", link: "/land-use-zoning" },
-        { name: "Real Estate Litigation", link: "/real-estate-litigation" },
-        {
-          name: "Environmental Law and Real Estate",
-          link: "/environmental-law-real-estate",
-        },
       ],
     },
     {
@@ -356,6 +282,82 @@ const menuItems = {
         {
           name: "Responding to Regulatory Investigations",
           link: "/responding-regulatory-investigations",
+        },
+      ],
+    },
+    {
+      heading: "Litigation and Dispute Resolution",
+      link: "/litigation-dispute",
+      items: [
+        { name: "Fundamentals of Civil Litigation", link: "/civil-litigation" },
+        { name: "Drafting and Filing Pleadings", link: "/drafting-pleadings" },
+        { name: "Discovery Process", link: "/discovery-process" },
+        { name: "Alternative Dispute Resolution (ADR)", link: "/adr" },
+        { name: "Trial Preparation and Strategy", link: "/trial-preparation" },
+        {
+          name: "Litigation Ethics and Professional Responsibility",
+          link: "/litigation-ethics",
+        },
+        { name: "Post-Trial Motions and Appeals", link: "/post-trial-appeals" },
+      ],
+    },
+  ],
+  Expertise: [
+    {
+      heading: "Corporate and Business Law",
+      link: "/corp-business-law",
+      items: [
+        { name: "Company Formation and Structure", link: "/company-formation" },
+        { name: "Corporate Governance", link: "/corporate-governance" },
+        { name: "Mergers and Acquisitions", link: "/mergers-acquisitions" },
+        { name: "Contract Law and Drafting", link: "/contract-law-drafting" },
+        {
+          name: "Risk Management and Compliance",
+          link: "/risk-management-compliance",
+        },
+      ],
+    },
+    {
+      heading: "Employment Law",
+      link: "/employment-law",
+      items: [
+        {
+          name: "Overview of Employment Law",
+          link: "/employment-law-overview",
+        },
+        {
+          name: "Employment Contracts and Agreements",
+          link: "/employment-contracts",
+        },
+        {
+          name: "Workplace Policies and Compliance",
+          link: "/workplace-policies",
+        },
+        { name: "Handling Employment Disputes", link: "/employment-disputes" },
+        {
+          name: "Discrimination and Harassment",
+          link: "/discrimination-harassment",
+        },
+        { name: "Wage and Hour Law", link: "/wage-hour-law" },
+        { name: "Termination and Severance", link: "/termination-severance" },
+      ],
+    },
+    {
+      heading: "Real Estate and Property Law",
+      link: "/real-estate-law",
+      items: [
+        {
+          name: "Fundamentals of Real Estate Law",
+          link: "/real-estate-fundamentals",
+        },
+        { name: "Property Transactions", link: "/property-transactions" },
+        { name: "Leasing and Tenancy Agreements", link: "/leasing-tenancy" },
+        { name: "Real Estate Financing", link: "/real-estate-financing" },
+        { name: "Land Use and Zoning", link: "/land-use-zoning" },
+        { name: "Real Estate Litigation", link: "/real-estate-litigation" },
+        {
+          name: "Environmental Law and Real Estate",
+          link: "/environmental-law-real-estate",
         },
       ],
     },
@@ -400,6 +402,7 @@ const menuItems = {
         { name: "Online Payments", link: "/online-payments" },
         { name: "Time & Expense Tracking", link: "/time-expense-tracking" },
       ],
+      
     },
     {
       heading: "Engage Clients",
@@ -447,6 +450,7 @@ const menuItems = {
         { name: "Guides", link: "/guides" },
         { name: "News & Press", link: "/news-press" },
       ],
+      
     },
     {
       heading: "Topics",
