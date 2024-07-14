@@ -234,7 +234,7 @@ const menuItems = {
       },
     
   ],
-  Rights:[
+  Expertise:[
     {
       heading: "Intellectual Property (IP)",
       link: "/intellectual-property",
@@ -302,7 +302,7 @@ const menuItems = {
       ],
     },
   ],
-  Expertise: [
+  Corporate: [
     {
       heading: "Corporate and Business Law",
       link: "/corp-business-law",
@@ -413,7 +413,7 @@ const menuItems = {
           link: "/advanced-document-automation",
         },
         { name: "Court Forms", link: "/court-forms" },
-        { name: "Template B", link: "/template-b" },
+        { name: "Template Building", link: "/template-building" },
       ],
     },
     {
