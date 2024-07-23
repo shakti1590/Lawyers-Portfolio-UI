@@ -1,6 +1,6 @@
 // import profile images
 import ProfilePhoto1 from '../src/assets/img/profile1.png';
-import ProfilePhoto2 from '../src/assets/img/profile2.png';
+import profile2 from '../src/assets/img/profile2.png';
 import profile1 from '../src/assets/img/profile1.png';
 
 // import social icons
